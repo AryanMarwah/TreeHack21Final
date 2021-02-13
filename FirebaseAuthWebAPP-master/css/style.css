@@ -1,0 +1,36 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.divCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divCover img{
+    width: 70%;
+}
+a{
+    text-decoration: none !important;
+}
+#userFullNameError, #userQualificationError, #userLocationError, #userEmailError, #userPasswordError, #userSIEmailError, #userSIPasswordError, #userBioError, #editProfileForm{
+    display: none;
+}
+
+#userAvatar{
+    width: 120px;
+    height: 120px;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #eea70e;
+    color: white;
+    font-size: 30px;
+  }
+
+  .text-center {
+      padding-top: 2%;
+      
+    text-align: center;
+  }
